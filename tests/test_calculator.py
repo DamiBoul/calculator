@@ -8,6 +8,8 @@ class TestCalculator(TestCase):
     def test_sum(self):
         self.assertEqual(self.calc.mysum(1, 2), 3)
 
+    def test_max(self):
+        self.assertEqual(self.calc.mymax(1, 2, 3), 3)
     
     
 if __name__ == '__main__':

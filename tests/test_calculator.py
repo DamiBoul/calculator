@@ -7,6 +7,9 @@ class TestCalculator(TestCase):
 
     def test_sum(self):
         self.assertEqual(self.calc.mysum(1, 2), 3)
+    
+    def test_avg(self):
+        self.assertEqual(self.calc.myavg(1, 2), 1.5)
 
     
     

@@ -11,6 +11,8 @@ class TestCalculator(TestCase):
     def test_avg(self):
         self.assertEqual(self.calc.myavg(1, 2), 1.5)
 
+    def test_max(self):
+        self.assertEqual(self.calc.mymax(1, 2, 3), 3)
     
     
 if __name__ == '__main__':
